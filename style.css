@@ -10,7 +10,7 @@ body {
   margin: auto;
 
 }
-.subtitle{ 
+.headline{ 
   color: #E1624F;
   font-family: 'Open Sans';
   font-weight: bold;
@@ -21,8 +21,19 @@ body {
 
 h1 { 
   margin: 8 0 40;
+  font-size: 36px;
 }
 
+h2{ 
+  font-size: 32px;
+}
+
+h3 { 
+  padding-left: 0px;
+  display: inline;
+  margin-bottom: 4px;
+  font-size: 28px;
+}
 #main-image { 
   height: 660 ; 
   border-radius: 28px;
@@ -33,10 +44,11 @@ img {
   width: 100%;
 }
 
-.centered-subtitle { 
+.subtitle { 
   text-align: center;
   font-size: 16px;
   margin: 0px;
+  font-style: italic;
 }
 
 p{ 
@@ -44,9 +56,17 @@ p{
   width: 100%;
   font-size: 16px;
   
+  
 }
 
+ol > ::marker{ 
+  font-size: 28px;
+}
 
+ul > ::marker { 
+  content: '• ';
+  color: black
+}
 
 ol, ul { 
   width: 100%;
@@ -54,18 +74,18 @@ ol, ul {
   list-style-position: inside;
 }
 
+ul li {
+  color: #0C51A7;
+}
+
 li{ 
   padding-left: 0px;
   font-weight: bold;
+
 }
 
 li > p { 
   font-weight: normal;
-}
-li > h3 { 
-  padding-left: 0px;
-  display: inline;
-  margin-bottom: 4px;
 }
 
 ol > img { 
