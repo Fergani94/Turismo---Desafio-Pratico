@@ -1,0 +1,75 @@
+:root{ 
+  font-family: "Open Sans", sans-serif;
+}
+body { 
+  width: 1120px;
+  box-sizing: border-box;
+  margin: auto;
+}
+.subtitle{ 
+  color: #E1624F;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 16px;
+}
+
+h1 { 
+  margin: 8 0 40;
+}
+
+#main-image { 
+  height: 660 ; 
+  border-radius: 28px;
+}
+
+img { 
+  width: 100%;
+}
+
+.photo-description { 
+  text-align: center;
+  font-size: 16px;
+}
+
+p{ 
+  width: 100%;
+  font-size: 16px;
+  
+}
+
+
+
+ol, ul { 
+  width: 100%;
+  padding-left: 0px;
+  list-style-position: inside;
+}
+
+li{ 
+  padding-left: 0px;
+  font-weight: bold;
+}
+
+li > p { 
+  font-weight: normal;
+}
+li > h3 { 
+  padding-left: 0px;
+  display: inline;
+}
+
+ol > img { 
+  height: 350px;
+  object-fit: cover;
+  border-radius: 28px;
+  margin-top:64px;
+}
+
+li + img { 
+  margin-top: 48px;
+}
+
+
+#last-image { 
+  object-position: bottom;
+}
